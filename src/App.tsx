@@ -8,7 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          This is just a sample app to figure out how to host react app on nginx.
+          <br></br>
+          To get to the actual app - go <a href="/app">here</a>.
         </p>
         <a
           className="App-link"
