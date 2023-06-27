@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import github_mark from './github-mark-white.svg'
 import './App.css';
 
 function App() {
@@ -10,16 +11,12 @@ function App() {
         <p>
           This is just a sample app to figure out how to host react app on nginx.
           <br></br>
-          To get to the actual app - go <a href="/app">here</a>.
+          To get to the actual app written in flask - go <a href="/app">here</a>.
+          <br></br>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          Check out my <a href="https://github.com/dp997">GitHub<img src={github_mark} alt="https://github.com/dp997" height="40" width="40"></img></a>
+        </p>
       </header>
     </div>
   );
