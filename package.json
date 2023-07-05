@@ -43,9 +43,10 @@
     "@babel/core": "7.22.5",
     "@babel/eslint-parser": "7.22.5",
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
-    "@babel/preset-env": "7.22.5"
+    "@babel/preset-env": "7.22.5",
+    "@semantic-release/changelog": "github:semantic-release/changelog",
+    "@semantic-release/git": "github:semantic-release/git"
   },
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
